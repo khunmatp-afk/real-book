@@ -1,0 +1,119 @@
+/* ข้อความสีขาว */
+.white-text {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #777;
+}
+
+.notwhite-text {
+    color: #535151
+}
+
+
+.bg2-cream {
+  background-color: beige;
+}
+
+/* ยามาชิตะ */
+.yamashita-color {
+    color: #afc8ee;
+}
+
+/* เงาตัวอักษร */
+.textshadow {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* ตัวอักษรชื่อหนังสือภาษาญี่ปุ่น */
+.text-giant {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.4;
+    color: white;
+}
+
+/* คำอ่านภาษาญี่ปุ่น */
+.reading {
+    font-size: 0.65rem;
+    color: white;
+    text-shadow: 1px 1px 2px #333;
+    padding-top: 0.5rem;
+}
+
+/* เลื่อนหน้าจอไปยัง container ถัดไปอย่างนุ่มนวล */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ปุ่มทำความรู้จักกับหนังสือ */
+#home .btn {
+    min-width: 220px;
+    color: #111;
+    background-color: white;
+    border: none;
+    border-radius: 16px !important;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+#home .btn:hover {
+    background-color: #f2f2f2;
+    color: #111;
+}
+
+.pt {
+padding-top: 60px;
+}
+
+/* ญี่ปุ่น */
+.kosugi-maru-regular {
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*มน มีหัว*/
+.mali-regular {
+  font-family: "Mali", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*เหลี่ยม มีหัว*/
+.bai-jamjuree-regular {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*ลายมือ ไม่มีหัว*/
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*ไม่มีหัว*/
+.prompt-regular {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nanum-gothic-regular {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.clarity-city-uniquifier {
+  font-family: "Clarity City", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sarabun-regular {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
